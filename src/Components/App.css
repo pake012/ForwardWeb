@@ -1,0 +1,210 @@
+.app{
+  width: 100%;
+  height: 100vh;
+  background: thistle;
+}
+
+.header{
+  border-radius: 30px;
+  width: 100%;
+  height: 95px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo-img{
+  width: 100px;
+  height: 100px;
+}
+
+.logo-text{
+    margin-top: 28px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 19px;
+    font-weight: bolder;
+    color: rgb(137, 102, 209);
+}
+
+.enableEthereumButton{
+   width: 133px;
+   height: 32px;
+   align-items: center;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 30px;
+    border-color: thistle;
+    color: rgb(137, 102, 209);
+}
+
+.info{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 13px;
+  color: rgb(137, 102, 209);
+  width: 83%;
+  height: 10px;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.body{
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.placeOffer{
+  width: 30%;
+  margin-right: 5%;
+  display: grid;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 30px;
+  border: solid rgb(183, 147, 218);
+}
+
+.placeofferTitle{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 28px;
+  font-weight: bolder;
+  color: rgb(137, 102, 209);
+  text-align-last: center;
+}
+
+h2{
+  margin-left: 3px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(137, 102, 209);
+  
+}
+.input{
+  margin-left: 22%;
+  margin-top: 3px;
+  width:100%;
+  color: rgb(79, 43, 151);
+
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input{
+  width: 27%;
+  height: 38px;
+  border-radius: 15px;
+  border: solid rgb(183, 147, 218);
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 13px;
+  text-align: center;
+}
+
+
+#executeDate{
+  width: 55%;
+}
+#expiryDate{
+  width: 55%;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+
+.submitOffer{
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: rgb(137, 102, 209); 
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 37%;
+  margin-right: 35%;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.matchButton{
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: rgb(137, 102, 209); 
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 10%;
+  margin-right: 10%;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.matchOffer{
+  width: 58% ;
+  display: grid;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 30px;
+  border: solid rgb(183, 147, 218);
+}
+table{
+  width: 100% ;
+  padding: 5px;
+
+}
+
+
+th{
+  width: auto;
+  height: 30px;
+  color: rgb(79, 43, 151);
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 17px;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+}
+
+tr{
+  padding: 10px;
+}
+
+.offerList{
+  color: rgb(79, 43, 151);
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 15px;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.footer{
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 6%;
+  width: 88%;
+  height: 120px;
+  display: grid;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid rgb(183, 147, 218);
+}
+
